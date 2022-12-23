@@ -52,22 +52,50 @@ public static class Noise
     };
 
     private const int hashMask = 255;
+    
+    private static float Smooth(float t)
+    {
+        return t * t * t * (t * (t * 6f - 15f) + 10f);
+    }
+    
     public static float Value1D(Vector3 point, float frequency)
     {
         point *= frequency;
-        int i = Mathf.FloorToInt(point.x);
-        i &= hashMask;
-        return hash[i] * (1f / hashMask);
+        int i0 = Mathf.FloorToInt(point.x);
+        float t = point.x - i0;
+        i0 &= hashMask;
+        int i1 = i0 + 1;
+        int h0 = hash[i0];
+        int h1 = hash[i1];
+        t = Smooth(t);
+        return Mathf.Lerp(h0,h1,t) * (1f/hashMask);
     }
-
+    
     public static float Value2D(Vector3 point, float frequency)
     {
         point *= frequency;
-        int ix = Mathf.FloorToInt(point.x);
-        int iy = Mathf.FloorToInt(point.y);
-        ix &= hashMask;
-        iy &= hashMask;
-        return hash[hash[ix] + iy] * (1f / hashMask);
+        int ix0 = Mathf.FloorToInt(point.x);
+        int iy0 = Mathf.FloorToInt(point.y);
+        float tx = point.x - ix0;
+        float ty = point.y - iy0;
+        ix0 &= hashMask;
+        iy0 &= hashMask;
+        int ix1 = ix0 + 1;
+        int iy1 = iy0 + 1;
+
+        int h0 = hash[ix0];
+        int h1 = hash[ix1];
+        int h00 = hash[h0 + iy0];
+        int h10 = hash[h1 + iy0];
+        int h01 = hash[h0 + iy1];
+        int h11 = hash[h1 + iy1];
+
+        tx = Smooth(tx);
+        ty = Smooth(ty);
+        return Mathf.Lerp(
+            Mathf.Lerp(h00, h10, tx),
+            Mathf.Lerp(h01, h11, tx),
+            ty) * (1f / hashMask);
     }
     
     public static float Value3D(Vector3 point, float frequency)

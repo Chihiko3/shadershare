@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24dda2f8-02b7-4774-a250-c7bda6a4f824" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoiseCreator/Editor/TextureCreatorInspector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PerlinNoiseCreator/Editor/TextureCreatorInspector.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoiseCreator/Noise.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PerlinNoiseCreator/Noise.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PerlinNoiseCreator/TextureCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PerlinNoiseCreator/TextureCreator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +61,8 @@
       <workItem from="1671719007640" duration="12330000" />
       <workItem from="1671797571968" duration="9946000" />
       <workItem from="1671810973254" duration="1948000" />
+      <workItem from="1671814507286" duration="3000" />
+      <workItem from="1671814532941" duration="961000" />
     </task>
     <servers />
   </component>

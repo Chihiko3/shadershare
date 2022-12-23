@@ -1,21 +1,21 @@
-using System;
-using Unity.Mathematics;
-using UnityEditor.PackageManager.UI;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class TextureCreator : MonoBehaviour
 {
 
-    public float frequency = 1f;
-    public Gradient coloring;
-    
+
+    [Range(2, 512)] public int resolution = 256;
     [Range(1, 8)] public int octaves = 1;
     [Range(1f, 4f)] public float lacunarity = 2f;
     [Range(0f, 1f)] public float persistence = 0.5f;
-    [Range(1, 3)] public int dimentions = 3;
-    [Range(2,512)] public int resolution = 256;
-    
+    [Range(1, 3)] public int dimensions = 3;
+
+    public float frequency = 1f;
+    public Gradient coloring;
+    public NoiseMethodType type;
+
+
     private Texture2D texture;
 
     private void OnEnable()
@@ -41,9 +41,6 @@ public class TextureCreator : MonoBehaviour
         }
     }
 
-
-
-    public NoiseMethodType type;
     public void FillTexture()
     {
         if (texture.width != resolution)
@@ -56,7 +53,7 @@ public class TextureCreator : MonoBehaviour
         Vector3 point01 = transform.TransformPoint(new Vector3(-0.5f, 0.5f));
         Vector3 point11 = transform.TransformPoint(new Vector3(0.5f, 0.5f));
         
-        NoiseMethod method = Noise.noiseMethods[(int)type][dimentions - 1];
+        NoiseMethod method = Noise.noiseMethods[(int)type][dimensions - 1];
         float stepSize = 1f / resolution;
         for (int y = 0; y < resolution; y++)
         {

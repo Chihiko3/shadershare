@@ -34,6 +34,13 @@ public static class Noise
         Perlin3D
     };
 
+    public static NoiseMethod[] valueMethods =
+    {
+        Value1D,
+        Value2D,
+        Value3D
+    };
+    
     public static NoiseMethod[][] noiseMethods = 
     {
         valueMethods,
@@ -201,13 +208,7 @@ public static class Noise
     }
 
 
-
-    public static NoiseMethod[] valueMethods =
-    {
-        Value1D,
-        Value2D,
-        Value3D
-    };
+    
     
     private static int[] hash =
     {

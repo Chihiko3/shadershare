@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24dda2f8-02b7-4774-a250-c7bda6a4f824" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
       <workItem from="1671810973254" duration="1948000" />
       <workItem from="1671814507286" duration="3000" />
       <workItem from="1671814532941" duration="961000" />
+      <workItem from="1672129334719" duration="1648000" />
     </task>
     <servers />
   </component>

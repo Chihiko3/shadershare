@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24dda2f8-02b7-4774-a250-c7bda6a4f824" name="Changes" comment="" />
+    <list default="true" id="24dda2f8-02b7-4774-a250-c7bda6a4f824" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CRT.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -61,6 +67,11 @@
       <workItem from="1671814507286" duration="3000" />
       <workItem from="1671814532941" duration="961000" />
       <workItem from="1672129334719" duration="2255000" />
+      <workItem from="1672143976427" duration="738000" />
+      <workItem from="1672144734535" duration="220000" />
+      <workItem from="1672144972349" duration="921000" />
+      <workItem from="1672561248987" duration="334000" />
+      <workItem from="1672561609689" duration="1284000" />
     </task>
     <servers />
   </component>

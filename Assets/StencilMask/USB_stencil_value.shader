@@ -1,4 +1,4 @@
-Shader "Unlit/USB_stencil_ref"
+Shader "Unlit/USB_stencil_value"
 {
     Properties
     {
@@ -6,19 +6,14 @@ Shader "Unlit/USB_stencil_ref"
     }
     SubShader
     {
-        Tags { "Queue"="Geometry-1" } // !
-        
-        ZWrite Off // !
-        ColorMask 0 // !
-        
-        Stencil // !
+        Tags { "Queue"="Geometry" } //!
+        Stencil //!
         {
-            Ref 2 // !StencilRef
-            Comp Always // !Always pss the Stencil Test
-            Pass Replace // !Pass Replace means that the current values of the Sencil Buffer be replaced by the sencilRef Value
+            Ref 2 //set the RefValue here
+            Comp NotEqual // so if equal, the pixel will be discard
+            Pass Keep // keep the Ref value = 2
         }
-        
-        
+
         Pass
         {
             CGPROGRAM

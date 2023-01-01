@@ -3,21 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="24dda2f8-02b7-4774-a250-c7bda6a4f824" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/USB_stencil_ref.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/USB_stencil_ref.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/USB_stencil_value.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/USB_stencil_value.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/m_USB_stencil_ref.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/m_USB_stencil_ref.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/m_USB_stencil_value.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMaskTest/m_USB_stencil_value.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StencilMask/USB_stencil_ref.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StencilMask/USB_stencil_ref.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -80,6 +79,7 @@
       <workItem from="1672561248987" duration="334000" />
       <workItem from="1672561609689" duration="1340000" />
       <workItem from="1672586027136" duration="849000" />
+      <workItem from="1672589152882" duration="328000" />
     </task>
     <servers />
   </component>

@@ -15,10 +15,12 @@ Shader "Unlit/USB_stencil_ref"
         {
             Ref 2 // !StencilRef
             Comp Always // !Always pss the Stencil Test
-            Pass Replace // !Pass Replace means that the current values of the Sencil Buffer be replaced by the sencilRef Value, but in this situation, always = 2
+            Pass Replace // !Pass Replace means that the current values of the Sencil Buffer be replaced by the sencilRef Value, in this situation, always = 2
+            // 对Replace再做一下解释，摄像机的视野会给所有像素赋一个值放在Stencil Buffer里面，默认是0。
+            // 通过这个replace，可以将当前物体所在区域（摄像机视角中）全部赋值为 Ref 的值。也就是将摄像机中透过该物体的所有值的Stencil改写为2。
+            
         }
-        
-        
+
         Pass
         {
             CGPROGRAM

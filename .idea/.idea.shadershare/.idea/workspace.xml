@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24dda2f8-02b7-4774-a250-c7bda6a4f824" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.shadershare/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StencilMask/USB_stencil_ref.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StencilMask/USB_stencil_ref.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,13 @@
       <workItem from="1672561609689" duration="1340000" />
       <workItem from="1672586027136" duration="849000" />
       <workItem from="1672589152882" duration="328000" />
+      <workItem from="1672733765654" duration="7000" />
+      <workItem from="1672733788920" duration="5000" />
+      <workItem from="1672733839888" duration="19000" />
+      <workItem from="1672733882331" duration="10000" />
+      <workItem from="1672735353505" duration="408000" />
+      <workItem from="1672735778419" duration="1779000" />
+      <workItem from="1672737586359" duration="2236000" />
     </task>
     <servers />
   </component>

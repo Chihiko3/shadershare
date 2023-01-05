@@ -31,13 +31,13 @@ Shader "Unlit/USB_stencil_ref"
 
             #include "UnityCG.cginc"
 
-            struct appdata
+            struct appdata // input
             {
-                float4 vertex : POSITION;
+                float4 vertex : POSITION; // 创建了一个名为vertex的储存vertex的在其自身坐标系中的位置信息
                 float2 uv : TEXCOORD0;
             };
 
-            struct v2f
+            struct v2f // output
             {
                 float2 uv : TEXCOORD0;
                 UNITY_FOG_COORDS(1)
